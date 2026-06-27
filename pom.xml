@@ -22,6 +22,7 @@
         <module>tj-trade</module>
         <module>tj-exam</module>
         <module>tj-data</module>
+        <module>tj-remark</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -112,11 +113,7 @@
                 <artifactId>aliyun-java-sdk-kms</artifactId>
                 <version>${ali.sdk.kms.version}</version>
             </dependency>
-            <dependency>
-                <groupId>com.alipay.sdk</groupId>
-                <artifactId>alipay-sdk-java</artifactId>
-                <version>${ali.sdk.pay.version}</version>
-            </dependency>
+
             <!--阿里云OSS的SDK-->
             <dependency>
                 <groupId>com.aliyun.oss</groupId>
