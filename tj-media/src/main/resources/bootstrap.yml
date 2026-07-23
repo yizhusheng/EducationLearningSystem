@@ -45,8 +45,8 @@ tj:
     media: TENCENT
   tencent:
     appId: 1312394356
-    secretId: AKIDDG3arrZ0B42sXzEOM8h182jDVbVDiAPS
-    secretKey: uc7RaXIqDPOAk9MAnAG5duvf8LHvIODl
+    secretId: ${TENCENT_SECRET_ID:}
+    secretKey: ${TENCENT_SECRET_KEY:}
     vod:
       enable: true
       vodValidSeconds: 7776000
